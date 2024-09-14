@@ -93,10 +93,13 @@ var features_Households_6 = format_Households_6.readFeatures(json_Households_6,
 var jsonSource_Households_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Households_6.addFeatures(features_Households_6);
+jsonSource_Households_6.addFeatures(features_Households_6);cluster_Households_6 = new ol.source.Cluster({
+  distance: 10,
+  source: jsonSource_Households_6
+});
 var lyr_Households_6 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Households_6, 
+                source:cluster_Households_6, 
                 style: style_Households_6,
                 popuplayertitle: "Households",
                 interactive: true,
