@@ -24,7 +24,7 @@ var lyr_Towns_1 = new ol.layer.Vector({
                 source:jsonSource_Towns_1, 
                 style: style_Towns_1,
                 popuplayertitle: "Towns",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/Towns_1.png" /> Towns'
             });
 var format_SubCounty_2 = new ol.format.GeoJSON();
@@ -39,7 +39,7 @@ var lyr_SubCounty_2 = new ol.layer.Vector({
                 source:jsonSource_SubCounty_2, 
                 style: style_SubCounty_2,
                 popuplayertitle: "Sub County",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/SubCounty_2.png" /> Sub County'
             });
 var format_County_3 = new ol.format.GeoJSON();
@@ -54,7 +54,7 @@ var lyr_County_3 = new ol.layer.Vector({
                 source:jsonSource_County_3, 
                 style: style_County_3,
                 popuplayertitle: "County",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/County_3.png" /> County'
             });
 var format_County_4 = new ol.format.GeoJSON();
@@ -69,7 +69,7 @@ var lyr_County_4 = new ol.layer.Vector({
                 source:jsonSource_County_4, 
                 style: style_County_4,
                 popuplayertitle: "County",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/County_4.png" /> County'
             });
 var format_Country_5 = new ol.format.GeoJSON();
@@ -84,7 +84,7 @@ var lyr_Country_5 = new ol.layer.Vector({
                 source:jsonSource_Country_5, 
                 style: style_Country_5,
                 popuplayertitle: "Country",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/Country_5.png" /> Country'
             });
 var format_Households_6 = new ol.format.GeoJSON();
@@ -114,7 +114,7 @@ var lyr_Clusters_7 = new ol.layer.Vector({
                 source:jsonSource_Clusters_7, 
                 style: style_Clusters_7,
                 popuplayertitle: "Clusters",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/Clusters_7.png" /> Clusters'
             });
 var group_Boundaries = new ol.layer.Group({
